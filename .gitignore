@@ -1,0 +1,120 @@
+################################################################################
+## temporarily ignore
+## use glob syntax
+syntax: glob
+
+################################################################################
+## specific files
+
+## use glob syntax
+syntax: glob
+
+**/result/*.zip
+
+################################################################################
+## Git Annex
+## use glob syntax
+syntax: glob
+*.git-annex
+
+################################################################################
+## back up files
+## use glob syntax
+syntax: glob
+
+.DS_Store
+._*
+*~
+.nfs.*
+\#*\#
+*.bak
+*.old
+
+################################################################################
+## logs
+## use glob syntax
+syntax: glob
+
+derby.log
+
+#derby db
+lift_example
+
+################################################################################
+## IntelliJ IDEA metadata
+## 
+## use glob syntax
+syntax: glob
+
+.idea/
+.idea/*
+*.iml
+*.iws
+
+################################################################################
+## eclipse conf file
+## use glob syntax
+syntax: glob
+
+.settings/
+.classpath
+.project
+.manager
+
+################################################################################
+## building
+## use glob syntax
+syntax: glob
+
+target
+build
+null
+tmp*
+temp*
+dist
+test-output
+
+################################################################################
+# Python
+## use glob syntax
+syntax: glob
+
+*.pyc
+
+################################################################################
+# Java
+## use glob syntax
+syntax: glob
+
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+################################################################################
+## other scm
+## use glob syntax
+syntax: glob
+
+.svn
+.CVS
+.hg*
+
+
+
+################################################################################
+## other
+## use glob syntax
+syntax: glob
+
+# use regexp syntax
+syntax: regexp
+#^\.pc/
